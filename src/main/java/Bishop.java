@@ -57,7 +57,7 @@ public class Bishop extends ChessGamePiece{
 			return new ImageIcon(
 				getClass().getResource("chessImages/WhiteBishop.gif")
 			);			
-		}
+		}//probando
 		else if ( getColorOfPiece() == ChessGamePiece.BLACK ){
 			return new ImageIcon(
 				getClass().getResource("chessImages/BlackBishop.gif")
